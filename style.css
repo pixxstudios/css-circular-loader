@@ -1,0 +1,18 @@
+.loader {
+	height: 60px;
+	width: 60px;
+	border: 0px solid blue;
+	border-radius: 50%;
+	margin: 100px auto;
+	animation: anim 1.5s linear infinite;
+	box-shadow: 2px 0px 0px 1px grey inset;
+}
+
+@keyframes anim {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
